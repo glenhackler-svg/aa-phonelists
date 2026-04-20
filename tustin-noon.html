@@ -23,8 +23,7 @@
     td.sobriety { color: #555; font-size: 0.85rem; }
     td.phone { color: #333; }
     td.action { text-align: center; width: 80px; }
-    td.action a { display: inline-block; background: #2c6e49; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 0.82rem; font-weight: 600; }
-    td.action a:active { background: #1e4d34; }
+    td.action a { display: inline-block; background: #2c6e49; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 0.82rem; font-weight: 600; white-space: nowrap; }
     @media (max-width: 480px) {
       thead th, tbody td { padding: 9px 8px; font-size: 0.8rem; }
       td.action a { padding: 5px 10px; }
@@ -51,58 +50,59 @@
       </thead>
       <tbody>
         <tr><td class="name">Alex</td><td class="sobriety">—</td><td class="phone">949-591-1146</td><td class="action"><a href="tel:9495911146">Call</a></td></tr>
-        <tr><td class="name">Alexander S.</td><td class="sobriety">Dec 26, 2025</td><td class="phone">714-401-4021</td><td class="action"><a href="tel:7144014021">Call</a></td></tr>
-        <tr><td class="name">Allan L.</td><td class="sobriety">Oct 2, 2024</td><td class="phone">714-401-0141</td><td class="action"><a href="tel:7144010141">Call</a></td></tr>
-        <tr><td class="name">Angel L.</td><td class="sobriety">Oct 9, 2025</td><td class="phone">949-241-0583</td><td class="action"><a href="tel:9492410583">Call</a></td></tr>
-        <tr><td class="name">Ashley B.</td><td class="sobriety">Feb 4, 2024</td><td class="phone">218-464-7157</td><td class="action"><a href="tel:2184647157">Call</a></td></tr>
-        <tr><td class="name">Audrey A.</td><td class="sobriety">Feb 2, 1993</td><td class="phone">714-501-8543</td><td class="action"><a href="tel:7145018543">Call</a></td></tr>
-        <tr><td class="name">Billy S.</td><td class="sobriety">Nov 26, 1990</td><td class="phone">714-319-5869</td><td class="action"><a href="tel:7143195869">Call</a></td></tr>
-        <tr><td class="name">Brandon</td><td class="sobriety">Nov 23, 2024</td><td class="phone">404-245-9744</td><td class="action"><a href="tel:4042459744">Call</a></td></tr>
-        <tr><td class="name">Cheryl C.</td><td class="sobriety">Jul 31, 2002</td><td class="phone">949-554-5601</td><td class="action"><a href="tel:9495545601">Call</a></td></tr>
-        <tr><td class="name">Chris H.</td><td class="sobriety">Jun 9, 2005</td><td class="phone">949-278-3489</td><td class="action"><a href="tel:9492783489">Call</a></td></tr>
-        <tr><td class="name">Damien</td><td class="sobriety">Jan 15, 2025</td><td class="phone">949-310-2323</td><td class="action"><a href="tel:9493102323">Call</a></td></tr>
-        <tr><td class="name">Dayle C.</td><td class="sobriety">Jun 13, 1994</td><td class="phone">714-392-6721</td><td class="action"><a href="tel:7143926721">Call</a></td></tr>
-        <tr><td class="name">Dee S.</td><td class="sobriety">Feb 3, 1991</td><td class="phone">714-319-5870</td><td class="action"><a href="tel:7143195870">Call</a></td></tr>
-        <tr><td class="name">Edwin</td><td class="sobriety">Feb 20, 2026</td><td class="phone">714-913-3511</td><td class="action"><a href="tel:7149133511">Call</a></td></tr>
+        <tr><td class="name">Alexander S.</td><td class="sobriety">December 26, 2025</td><td class="phone">714-401-4021</td><td class="action"><a href="tel:7144014021">Call</a></td></tr>
+        <tr><td class="name">Allan L.</td><td class="sobriety">October 2, 2024</td><td class="phone">714-401-0141</td><td class="action"><a href="tel:7144010141">Call</a></td></tr>
+        <tr><td class="name">Angel L.</td><td class="sobriety">October 9, 2025</td><td class="phone">949-241-0583</td><td class="action"><a href="tel:9492410583">Call</a></td></tr>
+        <tr><td class="name">Ashley B.</td><td class="sobriety">February 4, 2024</td><td class="phone">218-464-7157</td><td class="action"><a href="tel:2184647157">Call</a></td></tr>
+        <tr><td class="name">Audrey A.</td><td class="sobriety">February 2, 1993</td><td class="phone">714-501-8543</td><td class="action"><a href="tel:7145018543">Call</a></td></tr>
+        <tr><td class="name">Billy S.</td><td class="sobriety">November 26, 1990</td><td class="phone">714-319-5869</td><td class="action"><a href="tel:7143195869">Call</a></td></tr>
+        <tr><td class="name">Brandon</td><td class="sobriety">November 23, 2024</td><td class="phone">404-245-9744</td><td class="action"><a href="tel:4042459744">Call</a></td></tr>
+        <tr><td class="name">Cheryl C.</td><td class="sobriety">July 31, 2002</td><td class="phone">949-554-5601</td><td class="action"><a href="tel:9495545601">Call</a></td></tr>
+        <tr><td class="name">Chris H.</td><td class="sobriety">June 9, 2005</td><td class="phone">949-278-3489</td><td class="action"><a href="tel:9492783489">Call</a></td></tr>
+        <tr><td class="name">Damien</td><td class="sobriety">January 15, 2025</td><td class="phone">949-310-2323</td><td class="action"><a href="tel:9493102323">Call</a></td></tr>
+        <tr><td class="name">Dayle C.</td><td class="sobriety">June 13, 1994</td><td class="phone">714-392-6721</td><td class="action"><a href="tel:7143926721">Call</a></td></tr>
+        <tr><td class="name">Dee S.</td><td class="sobriety">February 3, 1991</td><td class="phone">714-319-5870</td><td class="action"><a href="tel:7143195870">Call</a></td></tr>
+        <tr><td class="name">Edwin</td><td class="sobriety">February 20, 2026</td><td class="phone">714-913-3511</td><td class="action"><a href="tel:7149133511">Call</a></td></tr>
         <tr><td class="name">Gary S.</td><td class="sobriety">May 21, 1982</td><td class="phone">714-222-4964</td><td class="action"><a href="tel:7142224964">Call</a></td></tr>
-        <tr><td class="name">George C.</td><td class="sobriety">Oct 5, 1987</td><td class="phone">714-318-9075</td><td class="action"><a href="tel:7143189075">Call</a></td></tr>
-        <tr><td class="name">George N.</td><td class="sobriety">Nov 11, 2025</td><td class="phone">657-347-7516</td><td class="action"><a href="tel:6573477516">Call</a></td></tr>
-        <tr><td class="name">Glen H.</td><td class="sobriety">Mar 23, 1993</td><td class="phone">949-633-3420</td><td class="action"><a href="tel:9496333420">Call</a></td></tr>
-        <tr><td class="name">Ivy</td><td class="sobriety">Jun 11, 2024</td><td class="phone">510-685-5308</td><td class="action"><a href="tel:5106855308">Call</a></td></tr>
-        <tr><td class="name">Jack T.</td><td class="sobriety">Nov 22, 1979</td><td class="phone">619-992-7172</td><td class="action"><a href="tel:6199927172">Call</a></td></tr>
-        <tr><td class="name">Jackie Y.</td><td class="sobriety">Aug 22, 1994</td><td class="phone">714-838-2032</td><td class="action"><a href="tel:7148382032">Call</a></td></tr>
-        <tr><td class="name">Jane L.</td><td class="sobriety">Jan 21, 2026</td><td class="phone">949-838-6933</td><td class="action"><a href="tel:9498386933">Call</a></td></tr>
-        <tr><td class="name">Jeff T.</td><td class="sobriety">Apr 27, 2025</td><td class="phone">949-877-2233</td><td class="action"><a href="tel:9498772233">Call</a></td></tr>
-        <tr><td class="name">Joanne S.</td><td class="sobriety">Jan 2, 1988</td><td class="phone">714-544-7980</td><td class="action"><a href="tel:7145447980">Call</a></td></tr>
-        <tr><td class="name">Jon F.</td><td class="sobriety">Jun 19, 2024</td><td class="phone">714-287-2813</td><td class="action"><a href="tel:7142872813">Call</a></td></tr>
-        <tr><td class="name">Jorge</td><td class="sobriety">Nov 11, 2026</td><td class="phone">657-347-7516</td><td class="action"><a href="tel:6573477516">Call</a></td></tr>
-        <tr><td class="name">Jose S.</td><td class="sobriety">Aug 26, 2018</td><td class="phone">714-818-5059</td><td class="action"><a href="tel:7148185059">Call</a></td></tr>
+        <tr><td class="name">George C.</td><td class="sobriety">October 5, 1987</td><td class="phone">714-318-9075</td><td class="action"><a href="tel:7143189075">Call</a></td></tr>
+        <tr><td class="name">George N.</td><td class="sobriety">November 11, 2025</td><td class="phone">657-347-7516</td><td class="action"><a href="tel:6573477516">Call</a></td></tr>
+        <tr><td class="name">Glen H.</td><td class="sobriety">March 23, 1993</td><td class="phone">949-633-3420</td><td class="action"><a href="tel:9496333420">Call</a></td></tr>
+        <tr><td class="name">Ivy</td><td class="sobriety">June 11, 2024</td><td class="phone">510-685-5308</td><td class="action"><a href="tel:5106855308">Call</a></td></tr>
+        <tr><td class="name">Jack T.</td><td class="sobriety">November 22, 1979</td><td class="phone">619-992-7172</td><td class="action"><a href="tel:6199927172">Call</a></td></tr>
+        <tr><td class="name">Jackie Y.</td><td class="sobriety">August 22, 1994</td><td class="phone">714-838-2032</td><td class="action"><a href="tel:7148382032">Call</a></td></tr>
+        <tr><td class="name">Jane L.</td><td class="sobriety">January 21, 2026</td><td class="phone">949-838-6933</td><td class="action"><a href="tel:9498386933">Call</a></td></tr>
+        <tr><td class="name">Jeff T.</td><td class="sobriety">April 27, 2025</td><td class="phone">949-877-2233</td><td class="action"><a href="tel:9498772233">Call</a></td></tr>
+        <tr><td class="name">Joanne S.</td><td class="sobriety">January 2, 1988</td><td class="phone">714-544-7980</td><td class="action"><a href="tel:7145447980">Call</a></td></tr>
+        <tr><td class="name">Jon F.</td><td class="sobriety">June 19, 2024</td><td class="phone">714-287-2813</td><td class="action"><a href="tel:7142872813">Call</a></td></tr>
+        <tr><td class="name">Jorge</td><td class="sobriety">November 11, 2026</td><td class="phone">657-347-7516</td><td class="action"><a href="tel:6573477516">Call</a></td></tr>
+        <tr><td class="name">Jose S.</td><td class="sobriety">August 26, 2018</td><td class="phone">714-818-5059</td><td class="action"><a href="tel:7148185059">Call</a></td></tr>
         <tr><td class="name">Karen G.</td><td class="sobriety">May 13, 2002</td><td class="phone">714-679-7591</td><td class="action"><a href="tel:7146797591">Call</a></td></tr>
-        <tr><td class="name">Kurt K.</td><td class="sobriety">Jan 23, 2009</td><td class="phone">714-420-6478</td><td class="action"><a href="tel:7144206478">Call</a></td></tr>
-        <tr><td class="name">Laken R.</td><td class="sobriety">Jun 24, 2025</td><td class="phone">530-520-9339</td><td class="action"><a href="tel:5305209339">Call</a></td></tr>
-        <tr><td class="name">Levi W.</td><td class="sobriety">Feb 25, 2014</td><td class="phone">714-244-0141</td><td class="action"><a href="tel:7142440141">Call</a></td></tr>
-        <tr><td class="name">Link S.</td><td class="sobriety">Jul 3, 1985</td><td class="phone">913-593-0137</td><td class="action"><a href="tel:9135930137">Call</a></td></tr>
-        <tr><td class="name">Mark L.</td><td class="sobriety">Sep 30, 2006</td><td class="phone">714-393-5579</td><td class="action"><a href="tel:7143935579">Call</a></td></tr>
-        <tr><td class="name">Mark Z.</td><td class="sobriety">Jan 1, 1982</td><td class="phone">949-439-9559</td><td class="action"><a href="tel:9494399559">Call</a></td></tr>
-        <tr><td class="name">Maxwell R.</td><td class="sobriety">Jan 25, 2026</td><td class="phone">313-549-5119</td><td class="action"><a href="tel:3135495119">Call</a></td></tr>
-        <tr><td class="name">Mike C.</td><td class="sobriety">Jan 30, 1995</td><td class="phone">714-357-4936</td><td class="action"><a href="tel:7143574936">Call</a></td></tr>
-        <tr><td class="name">Rick D.</td><td class="sobriety">Jan 22, 2004</td><td class="phone">714-227-1612</td><td class="action"><a href="tel:7142271612">Call</a></td></tr>
-        <tr><td class="name">Rick H.</td><td class="sobriety">Jun 17, 1989</td><td class="phone">714-836-5465</td><td class="action"><a href="tel:7148365465">Call</a></td></tr>
+        <tr><td class="name">Kurt K.</td><td class="sobriety">January 23, 2009</td><td class="phone">714-420-6478</td><td class="action"><a href="tel:7144206478">Call</a></td></tr>
+        <tr><td class="name">Laken R.</td><td class="sobriety">June 24, 2025</td><td class="phone">530-520-9339</td><td class="action"><a href="tel:5305209339">Call</a></td></tr>
+        <tr><td class="name">Levi W.</td><td class="sobriety">February 25, 2014</td><td class="phone">714-244-0141</td><td class="action"><a href="tel:7142440141">Call</a></td></tr>
+        <tr><td class="name">Link S.</td><td class="sobriety">July 3, 1985</td><td class="phone">913-593-0137</td><td class="action"><a href="tel:9135930137">Call</a></td></tr>
+        <tr><td class="name">Mark Brown</td><td class="sobriety">May 5, 1988</td><td class="phone">714-555-1212</td><td class="action"><a href="tel:7145551212">Call</a></td></tr>
+        <tr><td class="name">Mark L.</td><td class="sobriety">September 30, 2006</td><td class="phone">714-393-5579</td><td class="action"><a href="tel:7143935579">Call</a></td></tr>
+        <tr><td class="name">Mark Z.</td><td class="sobriety">January 1, 1982</td><td class="phone">949-439-9559</td><td class="action"><a href="tel:9494399559">Call</a></td></tr>
+        <tr><td class="name">Maxwell R.</td><td class="sobriety">January 25, 2026</td><td class="phone">313-549-5119</td><td class="action"><a href="tel:3135495119">Call</a></td></tr>
+        <tr><td class="name">Mike C.</td><td class="sobriety">January 30, 1995</td><td class="phone">714-357-4936</td><td class="action"><a href="tel:7143574936">Call</a></td></tr>
+        <tr><td class="name">Rick D.</td><td class="sobriety">January 22, 2004</td><td class="phone">714-227-1612</td><td class="action"><a href="tel:7142271612">Call</a></td></tr>
+        <tr><td class="name">Rick H.</td><td class="sobriety">June 17, 1989</td><td class="phone">714-836-5465</td><td class="action"><a href="tel:7148365465">Call</a></td></tr>
         <tr><td class="name">Ryan F.</td><td class="sobriety">May 25, 1999</td><td class="phone">949-232-9005</td><td class="action"><a href="tel:9492329005">Call</a></td></tr>
-        <tr><td class="name">Scott E.</td><td class="sobriety">Aug 1, 2023</td><td class="phone">760-450-7369</td><td class="action"><a href="tel:7604507369">Call</a></td></tr>
-        <tr><td class="name">Shari E.</td><td class="sobriety">Jun 13, 2025</td><td class="phone">714-345-1742</td><td class="action"><a href="tel:7143451742">Call</a></td></tr>
-        <tr><td class="name">Sharon G.</td><td class="sobriety">Jul 2, 2010</td><td class="phone">714-574-4172</td><td class="action"><a href="tel:7145744172">Call</a></td></tr>
-        <tr><td class="name">Shay</td><td class="sobriety">Jul 20, 2025</td><td class="phone">951-906-8684</td><td class="action"><a href="tel:9519068684">Call</a></td></tr>
-        <tr><td class="name">Sky</td><td class="sobriety">Jan 19, 2025</td><td class="phone">714-204-9754</td><td class="action"><a href="tel:7142049754">Call</a></td></tr>
-        <tr><td class="name">Spencer</td><td class="sobriety">Dec 5, 2024</td><td class="phone">714-904-1845</td><td class="action"><a href="tel:7149041845">Call</a></td></tr>
-        <tr><td class="name">Stephanie Y.</td><td class="sobriety">Mar 12, 2025</td><td class="phone">949-413-4632</td><td class="action"><a href="tel:9494134632">Call</a></td></tr>
-        <tr><td class="name">Steve H.</td><td class="sobriety">Feb 14, 2008</td><td class="phone">949-310-6057</td><td class="action"><a href="tel:9493106057">Call</a></td></tr>
-        <tr><td class="name">Susan D.</td><td class="sobriety">Mar 1, 2010</td><td class="phone">714-404-2154</td><td class="action"><a href="tel:7144042154">Call</a></td></tr>
-        <tr><td class="name">Tim M.</td><td class="sobriety">Apr 7, 1989</td><td class="phone">714-343-5334</td><td class="action"><a href="tel:7143435334">Call</a></td></tr>
-        <tr><td class="name">Tom J.</td><td class="sobriety">Nov 6, 2025</td><td class="phone">310-350-8067</td><td class="action"><a href="tel:3103508067">Call</a></td></tr>
-        <tr><td class="name">Tony A.</td><td class="sobriety">Oct 20, 2007</td><td class="phone">714-353-1339</td><td class="action"><a href="tel:7143531339">Call</a></td></tr>
-        <tr><td class="name">Wendy A.</td><td class="sobriety">Aug 25, 2019</td><td class="phone">714-878-7176</td><td class="action"><a href="tel:7148787176">Call</a></td></tr>
-        <tr><td class="name">William F.</td><td class="sobriety">Oct 15, 2023</td><td class="phone">714-392-9572</td><td class="action"><a href="tel:7143929572">Call</a></td></tr>
+        <tr><td class="name">Scott E.</td><td class="sobriety">August 1, 2023</td><td class="phone">760-450-7369</td><td class="action"><a href="tel:7604507369">Call</a></td></tr>
+        <tr><td class="name">Shari E.</td><td class="sobriety">June 13, 2025</td><td class="phone">714-345-1742</td><td class="action"><a href="tel:7143451742">Call</a></td></tr>
+        <tr><td class="name">Sharon G.</td><td class="sobriety">July 2, 2010</td><td class="phone">714-574-4172</td><td class="action"><a href="tel:7145744172">Call</a></td></tr>
+        <tr><td class="name">Shay</td><td class="sobriety">July 20, 2025</td><td class="phone">951-906-8684</td><td class="action"><a href="tel:9519068684">Call</a></td></tr>
+        <tr><td class="name">Sky</td><td class="sobriety">January 19, 2025</td><td class="phone">714-204-9754</td><td class="action"><a href="tel:7142049754">Call</a></td></tr>
+        <tr><td class="name">Spencer</td><td class="sobriety">December 5, 2024</td><td class="phone">714-904-1845</td><td class="action"><a href="tel:7149041845">Call</a></td></tr>
+        <tr><td class="name">Stephanie Y.</td><td class="sobriety">March 12, 2025</td><td class="phone">949-413-4632</td><td class="action"><a href="tel:9494134632">Call</a></td></tr>
+        <tr><td class="name">Steve H.</td><td class="sobriety">February 14, 2008</td><td class="phone">949-310-6057</td><td class="action"><a href="tel:9493106057">Call</a></td></tr>
+        <tr><td class="name">Susan D.</td><td class="sobriety">March 1, 2010</td><td class="phone">714-404-2154</td><td class="action"><a href="tel:7144042154">Call</a></td></tr>
+        <tr><td class="name">Tim M.</td><td class="sobriety">April 7, 1989</td><td class="phone">714-343-5334</td><td class="action"><a href="tel:7143435334">Call</a></td></tr>
+        <tr><td class="name">Tom J.</td><td class="sobriety">November 6, 2025</td><td class="phone">310-350-8067</td><td class="action"><a href="tel:3103508067">Call</a></td></tr>
+        <tr><td class="name">Tony A.</td><td class="sobriety">October 20, 2007</td><td class="phone">714-353-1339</td><td class="action"><a href="tel:7143531339">Call</a></td></tr>
+        <tr><td class="name">Wendy A.</td><td class="sobriety">August 25, 2019</td><td class="phone">714-878-7176</td><td class="action"><a href="tel:7148787176">Call</a></td></tr>
+        <tr><td class="name">William F.</td><td class="sobriety">October 15, 2023</td><td class="phone">714-392-9572</td><td class="action"><a href="tel:7143929572">Call</a></td></tr>
       </tbody>
     </table>
   </div>
