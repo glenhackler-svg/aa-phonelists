@@ -23,8 +23,7 @@
     td.sobriety { color: #555; font-size: 0.85rem; }
     td.phone { color: #333; }
     td.action { text-align: center; width: 80px; }
-    td.action a { display: inline-block; background: #1a4a7a; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 0.82rem; font-weight: 600; }
-    td.action a:active { background: #0f2f52; }
+    td.action a { display: inline-block; background: #1a4a7a; color: white; padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 0.82rem; font-weight: 600; white-space: nowrap; }
     @media (max-width: 480px) {
       thead th, tbody td { padding: 9px 8px; font-size: 0.8rem; }
       td.action a { padding: 5px 10px; }
@@ -49,43 +48,44 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td class="name">Aaron R.</td><td class="sobriety">Aug 3, 2021</td><td class="phone">949-520-8881</td><td class="action"><a href="tel:9495208881">Call</a></td></tr>
-        <tr><td class="name">Adam E.</td><td class="sobriety">Oct 8, 2021</td><td class="phone">310-782-4540</td><td class="action"><a href="tel:3107824540">Call</a></td></tr>
-        <tr><td class="name">Adrian C.</td><td class="sobriety">Aug 25, 2025</td><td class="phone">213-563-6361</td><td class="action"><a href="tel:2135636361">Call</a></td></tr>
-        <tr><td class="name">Brandon R.</td><td class="sobriety">Nov 23, 2024</td><td class="phone">619-248-4115</td><td class="action"><a href="tel:6192484115">Call</a></td></tr>
-        <tr><td class="name">Brian M.</td><td class="sobriety">Sep 10, 2018</td><td class="phone">949-701-7118</td><td class="action"><a href="tel:9497017118">Call</a></td></tr>
-        <tr><td class="name">Chris C.</td><td class="sobriety">Aug 4, 2025</td><td class="phone">720-775-7266</td><td class="action"><a href="tel:7207757266">Call</a></td></tr>
-        <tr><td class="name">Daniel M.</td><td class="sobriety">Jan 12, 2026</td><td class="phone">949-512-8598</td><td class="action"><a href="tel:9495128598">Call</a></td></tr>
-        <tr><td class="name">Donny B.</td><td class="sobriety">Nov 17, 2024</td><td class="phone">949-656-0612</td><td class="action"><a href="tel:9496560612">Call</a></td></tr>
-        <tr><td class="name">Elmer R.</td><td class="sobriety">Sep 21, 2022</td><td class="phone">714-206-6327</td><td class="action"><a href="tel:7142066327">Call</a></td></tr>
-        <tr><td class="name">Emmanuel U.</td><td class="sobriety">Jul 19, 2025</td><td class="phone">949-293-3228</td><td class="action"><a href="tel:9492933228">Call</a></td></tr>
-        <tr><td class="name">Evan C.</td><td class="sobriety">Nov 1, 2024</td><td class="phone">818-274-1564</td><td class="action"><a href="tel:8182741564">Call</a></td></tr>
-        <tr><td class="name">Fernando M.</td><td class="sobriety">May 11, 1993</td><td class="phone">714-724-3344</td><td class="action"><a href="tel:7147243344">Call</a></td></tr>
-        <tr><td class="name">Glen H.</td><td class="sobriety">Mar 23, 1993</td><td class="phone">949-633-3420</td><td class="action"><a href="tel:9496333420">Call</a></td></tr>
-        <tr><td class="name">James S.</td><td class="sobriety">Aug 20, 2017</td><td class="phone">909-534-3518</td><td class="action"><a href="tel:9095343518">Call</a></td></tr>
-        <tr><td class="name">Jason H.</td><td class="sobriety">Nov 22, 2025</td><td class="phone">951-227-8446</td><td class="action"><a href="tel:9512278446">Call</a></td></tr>
-        <tr><td class="name">Jeff W.</td><td class="sobriety">Oct 31, 1996</td><td class="phone">949-733-2675</td><td class="action"><a href="tel:9497332675">Call</a></td></tr>
-        <tr><td class="name">Jim P.</td><td class="sobriety">Jun 30, 1991</td><td class="phone">970-708-1479</td><td class="action"><a href="tel:9707081479">Call</a></td></tr>
-        <tr><td class="name">Jim V.</td><td class="sobriety">Feb 7, 2015</td><td class="phone">949-278-3447</td><td class="action"><a href="tel:9492783447">Call</a></td></tr>
-        <tr><td class="name">Joe M.</td><td class="sobriety">Oct 5, 1991</td><td class="phone">949-878-0215</td><td class="action"><a href="tel:9498780215">Call</a></td></tr>
-        <tr><td class="name">John B.</td><td class="sobriety">May 23, 2014</td><td class="phone">201-960-8402</td><td class="action"><a href="tel:2019608402">Call</a></td></tr>
-        <tr><td class="name">John W.</td><td class="sobriety">Feb 26, 2000</td><td class="phone">714-396-2217</td><td class="action"><a href="tel:7143962217">Call</a></td></tr>
-        <tr><td class="name">Jon F.</td><td class="sobriety">Oct 24, 2025</td><td class="phone">909-518-5960</td><td class="action"><a href="tel:9095185960">Call</a></td></tr>
-        <tr><td class="name">Jose A.</td><td class="sobriety">—</td><td class="phone">714-929-6347</td><td class="action"><a href="tel:7149296347">Call</a></td></tr>
-        <tr><td class="name">Justin B.</td><td class="sobriety">Apr 1, 2025</td><td class="phone">714-341-1910</td><td class="action"><a href="tel:7143411910">Call</a></td></tr>
-        <tr><td class="name">Kayden M.</td><td class="sobriety">Jul 15, 2021</td><td class="phone">714-514-3992</td><td class="action"><a href="tel:7145143992">Call</a></td></tr>
-        <tr><td class="name">Kris M.</td><td class="sobriety">Nov 23, 2025</td><td class="phone">818-239-6162</td><td class="action"><a href="tel:8182396162">Call</a></td></tr>
-        <tr><td class="name">Matt M.</td><td class="sobriety">Oct 1, 2023</td><td class="phone">714-235-7546</td><td class="action"><a href="tel:7142357546">Call</a></td></tr>
-        <tr><td class="name">Michael E.</td><td class="sobriety">Jan 19, 2025</td><td class="phone">949-230-1594</td><td class="action"><a href="tel:9492301594">Call</a></td></tr>
-        <tr><td class="name">Mike H.</td><td class="sobriety">May 13, 2014</td><td class="phone">657-236-0874</td><td class="action"><a href="tel:6572360874">Call</a></td></tr>
-        <tr><td class="name">Noah D.</td><td class="sobriety">Aug 16, 2023</td><td class="phone">949-784-9702</td><td class="action"><a href="tel:9497849702">Call</a></td></tr>
-        <tr><td class="name">Orlando G.</td><td class="sobriety">Mar 18, 2018</td><td class="phone">714-235-3839</td><td class="action"><a href="tel:7142353839">Call</a></td></tr>
-        <tr><td class="name">Rafael V.</td><td class="sobriety">Dec 5, 2005</td><td class="phone">714-457-6839</td><td class="action"><a href="tel:7144576839">Call</a></td></tr>
-        <tr><td class="name">Richard D.</td><td class="sobriety">Sep 1, 2025</td><td class="phone">760-831-1754</td><td class="action"><a href="tel:7608311754">Call</a></td></tr>
-        <tr><td class="name">Rubin D.</td><td class="sobriety">Nov 1, 2015</td><td class="phone">714-264-3802</td><td class="action"><a href="tel:7142643802">Call</a></td></tr>
-        <tr><td class="name">Stephen Z.</td><td class="sobriety">Jul 26, 2025</td><td class="phone">714-642-9091</td><td class="action"><a href="tel:7146429091">Call</a></td></tr>
-        <tr><td class="name">Taylor S.</td><td class="sobriety">Feb 4, 2025</td><td class="phone">949-330-3909</td><td class="action"><a href="tel:9493303909">Call</a></td></tr>
-        <tr><td class="name">Warren D.</td><td class="sobriety">Dec 10, 2025</td><td class="phone">949-595-6870</td><td class="action"><a href="tel:9495956870">Call</a></td></tr>
+        <tr><td class="name">Aaron R.</td><td class="sobriety">August 3, 2021</td><td class="phone">949.520.8881</td><td class="action"><a href="tel:9495208881">Call</a></td></tr>
+        <tr><td class="name">Adam E.</td><td class="sobriety">October 8, 2021</td><td class="phone">310.782.4540</td><td class="action"><a href="tel:3107824540">Call</a></td></tr>
+        <tr><td class="name">Adrian C.</td><td class="sobriety">August 25, 2025</td><td class="phone">213.563.6361</td><td class="action"><a href="tel:2135636361">Call</a></td></tr>
+        <tr><td class="name">Brandon R.</td><td class="sobriety">November 23, 2024</td><td class="phone">619-248-4115</td><td class="action"><a href="tel:6192484115">Call</a></td></tr>
+        <tr><td class="name">Brian M.</td><td class="sobriety">September 10, 2018</td><td class="phone">949.701.7118</td><td class="action"><a href="tel:9497017118">Call</a></td></tr>
+        <tr><td class="name">Chris C.</td><td class="sobriety">August 4, 2025</td><td class="phone">720.775.7266</td><td class="action"><a href="tel:7207757266">Call</a></td></tr>
+        <tr><td class="name">Daniel M.</td><td class="sobriety">January 12, 2026</td><td class="phone">949.512.8598</td><td class="action"><a href="tel:9495128598">Call</a></td></tr>
+        <tr><td class="name">Donny B.</td><td class="sobriety">November 17, 2024</td><td class="phone">949.656.0612</td><td class="action"><a href="tel:9496560612">Call</a></td></tr>
+        <tr><td class="name">Elmer R.</td><td class="sobriety">September 21, 2022</td><td class="phone">714.206.6327</td><td class="action"><a href="tel:7142066327">Call</a></td></tr>
+        <tr><td class="name">Emmanuel U.</td><td class="sobriety">July 19, 2025</td><td class="phone">949.293.3228</td><td class="action"><a href="tel:9492933228">Call</a></td></tr>
+        <tr><td class="name">Evan C.</td><td class="sobriety">November 1, 2024</td><td class="phone">818.274.1564</td><td class="action"><a href="tel:8182741564">Call</a></td></tr>
+        <tr><td class="name">Fernando M.</td><td class="sobriety">May 11, 1993</td><td class="phone">714.724.3344</td><td class="action"><a href="tel:7147243344">Call</a></td></tr>
+        <tr><td class="name">George F.</td><td class="sobriety">May 2, 1999</td><td class="phone">714-555-1212</td><td class="action"><a href="tel:7145551212">Call</a></td></tr>
+        <tr><td class="name">Glen H.</td><td class="sobriety">March 23, 1993</td><td class="phone">949.633.3420</td><td class="action"><a href="tel:9496333420">Call</a></td></tr>
+        <tr><td class="name">James S.</td><td class="sobriety">August 20, 2017</td><td class="phone">909.534.3518</td><td class="action"><a href="tel:9095343518">Call</a></td></tr>
+        <tr><td class="name">Jason H.</td><td class="sobriety">November 22, 2025</td><td class="phone">951.227.8446</td><td class="action"><a href="tel:9512278446">Call</a></td></tr>
+        <tr><td class="name">Jeff W.</td><td class="sobriety">October 31, 1996</td><td class="phone">949.733.2675</td><td class="action"><a href="tel:9497332675">Call</a></td></tr>
+        <tr><td class="name">Jim P.</td><td class="sobriety">June 30, 1991</td><td class="phone">970.708.1479</td><td class="action"><a href="tel:9707081479">Call</a></td></tr>
+        <tr><td class="name">Jim V.</td><td class="sobriety">February 7, 2015</td><td class="phone">949.278.3447</td><td class="action"><a href="tel:9492783447">Call</a></td></tr>
+        <tr><td class="name">Joe M.</td><td class="sobriety">October 5, 1991</td><td class="phone">949.878.0215</td><td class="action"><a href="tel:9498780215">Call</a></td></tr>
+        <tr><td class="name">John B.</td><td class="sobriety">May 23, 2014</td><td class="phone">201.960.8402</td><td class="action"><a href="tel:2019608402">Call</a></td></tr>
+        <tr><td class="name">John W.</td><td class="sobriety">February 26, 2000</td><td class="phone">714.396.2217</td><td class="action"><a href="tel:7143962217">Call</a></td></tr>
+        <tr><td class="name">Jon F.</td><td class="sobriety">October 24, 2025</td><td class="phone">909.518.5960</td><td class="action"><a href="tel:9095185960">Call</a></td></tr>
+        <tr><td class="name">Jose A.</td><td class="sobriety">—</td><td class="phone">714.929.6347</td><td class="action"><a href="tel:7149296347">Call</a></td></tr>
+        <tr><td class="name">Justin B.</td><td class="sobriety">April 1, 2025</td><td class="phone">714-341-1910</td><td class="action"><a href="tel:7143411910">Call</a></td></tr>
+        <tr><td class="name">Kayden M.</td><td class="sobriety">July 15, 2021</td><td class="phone">714.514.3992</td><td class="action"><a href="tel:7145143992">Call</a></td></tr>
+        <tr><td class="name">Kris M.</td><td class="sobriety">November 23, 2025</td><td class="phone">818.239.6162</td><td class="action"><a href="tel:8182396162">Call</a></td></tr>
+        <tr><td class="name">Matt M.</td><td class="sobriety">October 1, 2023</td><td class="phone">714.235.7546</td><td class="action"><a href="tel:7142357546">Call</a></td></tr>
+        <tr><td class="name">Michael E.</td><td class="sobriety">January 19, 2025</td><td class="phone">949-230-1594</td><td class="action"><a href="tel:9492301594">Call</a></td></tr>
+        <tr><td class="name">Mike H.</td><td class="sobriety">May 13, 2014</td><td class="phone">657.236.0874</td><td class="action"><a href="tel:6572360874">Call</a></td></tr>
+        <tr><td class="name">Noah D.</td><td class="sobriety">August 16, 2023</td><td class="phone">949.784.9702</td><td class="action"><a href="tel:9497849702">Call</a></td></tr>
+        <tr><td class="name">Orlando G.</td><td class="sobriety">March 18, 2018</td><td class="phone">714.235.3839</td><td class="action"><a href="tel:7142353839">Call</a></td></tr>
+        <tr><td class="name">Rafael V.</td><td class="sobriety">December 5, 2005</td><td class="phone">714.457.6839</td><td class="action"><a href="tel:7144576839">Call</a></td></tr>
+        <tr><td class="name">Richard D.</td><td class="sobriety">September 1, 2025</td><td class="phone">760.831.1754</td><td class="action"><a href="tel:7608311754">Call</a></td></tr>
+        <tr><td class="name">Rubin D.</td><td class="sobriety">November 1, 2015</td><td class="phone">714.264.3802</td><td class="action"><a href="tel:7142643802">Call</a></td></tr>
+        <tr><td class="name">Stephen Z.</td><td class="sobriety">July 26, 2025</td><td class="phone">714.642.9091</td><td class="action"><a href="tel:7146429091">Call</a></td></tr>
+        <tr><td class="name">Taylor S.</td><td class="sobriety">February 4, 2025</td><td class="phone">949.330.3909</td><td class="action"><a href="tel:9493303909">Call</a></td></tr>
+        <tr><td class="name">Warren D.</td><td class="sobriety">December 10, 2025</td><td class="phone">949.595.6870</td><td class="action"><a href="tel:9495956870">Call</a></td></tr>
       </tbody>
     </table>
   </div>
